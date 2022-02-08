@@ -44,8 +44,20 @@ export default {
   ],
 
   modules: [
+    '@nuxtjs/google-gtag'
   ],
 
   build: {
+  },
+
+  'google-gtag': {
+    id: String(process.env.GOOGLE_ANALYTICS_ID),
+    config: {
+      anonymize_ip: true,
+      send_page_view: false,
+      linker: {
+        domains: ['https://omtht.xyz']
+      }
+    }
   }
 }
