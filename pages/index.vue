@@ -33,8 +33,8 @@ export default {
       await this.sleep(1500)
       // eslint-disable-next-line no-undef
       const writer = GlitchedWriter.create('.glitch', 'encrypted', () => {})
-      const phrases = ['Reset the old world', 'Embrace this new existence', 'Coming soon - Q4 2022']
-      writer.queueWrite(phrases, 2000, false)
+      const phrases = ['Embrace this existence', 'Time for new beginning', 'Coming soon - Q4 2022']
+      writer.queueWrite(phrases, 1000, false)
     }
   }
 }
