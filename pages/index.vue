@@ -1,6 +1,7 @@
 <template>
   <main>
-    <div id="index_container" class="flex h-screen z-100">
+    <Deco class="md:inline hidden" />
+    <div id="index_container" class="flex h-screen">
       <div class="m-auto">
         <div class="p-8">
           <h1 class="glitch md:text-5xl text-3xl text-white font-thin" />
@@ -33,7 +34,7 @@ export default {
       await this.sleep(1750)
       // eslint-disable-next-line no-undef
       const writer = GlitchedWriter.create('.glitch', 'encrypted', () => {})
-      const phrases = ['Embrace this existence', 'Time for new beginning', 'Coming soon - Q4 2022']
+      const phrases = ['Time for new beginning', 'Coming soon - Q4 2022']
       writer.queueWrite(phrases, 1000, false)
     }
   }

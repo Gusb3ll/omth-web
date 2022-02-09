@@ -32,6 +32,7 @@ export default {
   css: ['~/assets/css/global.css'],
 
   plugins: [
+    '~/plugins/wave.js'
   ],
 
   components: true,

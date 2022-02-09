@@ -30,6 +30,7 @@
     "nuxt-animejs": "^1.2.2",
     "nuxt-swc": "^0.1.0",
     "nuxt-windicss": "^2",
-    "vue-scramble-text": "^1.0.1"
+    "vue-scramble-text": "^1.0.1",
+    "vue-wavify": "^1.2.0"
   }
 }
