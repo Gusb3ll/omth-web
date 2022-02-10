@@ -1,6 +1,6 @@
 <template>
   <div id="deco_container">
-    <div id="topleft_deco_container" class="absolute left-5 top-5">
+    <!-- <div id="topleft_deco_container" class="absolute left-5 top-5">
       <div class="flex flex-col gap-5">
         <div class="text-sm text-white font-thin">
           <span class="tracking-[.025em]">Link control system</span> : <b class="blink">OFFLINE</b>
@@ -52,7 +52,7 @@
           <b class="text-red-500">Unknown</b> : <span class="tracking-[.015em]">Core 2 Status</span>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <div id="deco_wave_container" class="absolute -bottom-1 inset-x-0">
       <vue-wavify mask="url(#mask2)" fill="#1A1A1A" :points="5" :amplitude="25" :speed="0.2">
