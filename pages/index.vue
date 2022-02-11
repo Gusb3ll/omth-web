@@ -1,6 +1,5 @@
 <template>
   <main>
-    <Deco class="md:inline hidden" />
     <div id="index_container" class="flex h-screen">
       <div class="m-auto">
         <div class="p-8">
