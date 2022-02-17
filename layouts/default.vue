@@ -1,6 +1,6 @@
 <template>
   <div>
     <Nuxt keep-alive />
-    <Footer />
+    <!-- <Footer /> -->
   </div>
 </template>
