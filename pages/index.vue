@@ -1,14 +1,10 @@
 <template>
   <main>
-    <!-- <Deco class="md:inline hidden" /> -->
     <div id="index_container" class="flex h-screen">
       <div class="m-auto">
-        <div class="p-8">
-          <!-- <h1 class="glitch md:text-5xl text-3xl text-white font-thin" /> -->
-          <h1 class="text-white font-thin">
-            <b class="handfont md:text-7xl text-5xl">Coming soon </b><b class="handfont md:text-5xl text-3xl">- Q4 2022</b>
-          </h1>
-        </div>
+        <h1 class="handfont text-white font-thin">
+          <b class="lg:text-8xl md:text-7xl text-5xl">Coming soon </b><b class="lg:text-6xl md:text-5xl text-3xl">- Q4 2022</b>
+        </h1>
       </div>
     </div>
   </main>
@@ -17,13 +13,9 @@
 <script>
 export default {
   mounted () {
-    // this.textGlitch()
     this.indexAnimation()
   },
   methods: {
-    sleep (ms) {
-      return new Promise(resolve => setTimeout(resolve, ms))
-    },
     indexAnimation () {
       this.$anime({
         targets: '#index_container',
@@ -33,20 +25,13 @@ export default {
         easing: 'easeOutQuint'
       })
     }
-    // async textGlitch () {
-    //   await this.sleep(1750)
-    //   // eslint-disable-next-line no-undef
-    //   const writer = GlitchedWriter.create('.glitch', 'encrypted', () => {})
-    //   const phrases = ['Time for new beginning', 'Coming soon - Q4 2022']
-    //   writer.queueWrite(phrases, 1000, false)
-    // }
   }
 }
 </script>
 
 <style scoped>
 .handfont {
-  font-family: 'Freehand', cursive;
+  font-family: 'Ephesis', cursive;
 }
 h1 {
   pointer-events: none;

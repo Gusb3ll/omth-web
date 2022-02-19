@@ -11,29 +11,26 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'OMTHT2022 Website' },
+      { hid: 'description', name: 'description', content: 'osu!mania thailand tournament website' },
       { name: 'format-detection', content: 'telephone=no' },
-      { name: 'og:title', content: 'OMTHT2022' },
-      { hid: 'og:description ', name: 'og:description', content: 'OMTHT2022 Website' },
+      { hid: 'og:url', name: 'og:url', content: 'https://www.omtht.xyz' },
       { hid: 'og:type', name: 'og:type', content: 'website' },
-      { hid: 'og:url', name: 'og:url', content: 'https://omtht.xyz' },
+      { hid: 'og:title', name: 'og:title', content: 'osu!mania thailand tournament' },
+      { hid: 'og:description ', name: 'og:description', content: 'OMTHT2022 Website' },
       { hid: 'og:image', name: 'og:image', content: 'https://cdn.discordapp.com/attachments/888349851870429184/925264302166933525/og_img.png' },
       { hid: 'og:image:width', name: 'og:image:width', content: '1440' },
-      { hid: 'og:image:height', name: 'og:image:height', content: '779' }
+      { hid: 'og:image:height', name: 'og:image:height', content: '779' },
+      { hid: 'og:locale', name: 'og:localet', content: 'en_US' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' }
     ],
-    script: [
-      { hid: 'glitched-writer', src: 'https://cdn.jsdelivr.net/npm/glitched-writer/lib/index.min.js' }
-    ]
+    script: []
   },
 
   css: ['~/assets/css/global.css'],
 
-  plugins: [
-    '~/plugins/wave.js'
-  ],
+  plugins: [],
 
   components: true,
 
