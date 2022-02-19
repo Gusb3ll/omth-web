@@ -4,7 +4,7 @@ export default {
   target: 'static',
 
   head: {
-    title: 'OMTHT2022',
+    title: 'osu!mania Thailand Tournament',
     htmlAttrs: {
       lang: 'en'
     },
@@ -16,7 +16,7 @@ export default {
       { hid: 'og:url', name: 'og:url', content: 'https://www.omtht.xyz' },
       { hid: 'og:type', name: 'og:type', content: 'website' },
       { hid: 'og:title', name: 'og:title', content: 'osu!mania thailand tournament' },
-      { hid: 'og:description ', name: 'og:description', content: 'OMTHT2022 Website' },
+      { hid: 'og:description ', name: 'og:description', content: 'osu!mania thailand tournament website' },
       { hid: 'og:image', name: 'og:image', content: 'https://cdn.discordapp.com/attachments/888349851870429184/925264302166933525/og_img.png' },
       { hid: 'og:image:width', name: 'og:image:width', content: '1440' },
       { hid: 'og:image:height', name: 'og:image:height', content: '779' },
